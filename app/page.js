@@ -9,6 +9,7 @@ import Header from './Header'
 import Slider from './Slider'
 import Place from './Place'
 import Registerform from './Registerform'
+import Product from './Product'
 
 const page = () => {
   return (
@@ -16,9 +17,11 @@ const page = () => {
         <Navbar/>
         {/* <Header/> */}
         <Slider/>
+        <Product/>
         <Place/>
         <Footer/>
         {/* <Registerform/> */}
+        {/* <Product/> */}
     </>
   )
 }

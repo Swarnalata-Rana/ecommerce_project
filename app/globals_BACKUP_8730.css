@@ -119,4 +119,135 @@ gradient-custom-3 {
     margin-top: 15px;
     font-size: 15px;
   }
+<<<<<<< HEAD
   
+=======
+  /* Product */
+  .main_product{
+    /* background-color: #d3d7dd; */
+  }
+  .row1{
+    margin:auto;
+    /* border: 1px solid red; */
+    height: 351px;
+    width: 1500px;
+    margin-top: 30px;
+    /* background-color: rgb(91, 32, 41); */
+  }
+  .col1{
+    border: 1px solid rgb(20, 19, 19);
+    width: 300px;
+    height: 350px;
+    float: left;
+
+  }
+  .col2{
+    border: 1px solid rgb(20, 19, 19);
+    width: 300px;
+    height: 350px;
+    float: left;
+
+  }
+  .col3{
+    border: 1px solid rgb(20, 19, 19);
+    width: 300px;
+    height: 350px;
+    float: left;
+
+  }
+  .col4{
+    border: 1px solid rgb(14, 14, 14);
+    width: 299px;
+    height: 350px;
+    float: left;
+  }
+  .col5{
+    border: 1px solid rgb(20, 19, 19);
+    width: 299px;
+    height: 350px;
+    float: left;
+  }
+  .row2{
+    margin:auto;
+    /* border: 1px solid red; */
+    height: 351px;
+    width: 1500px;
+    margin-top: 30px;
+
+  }
+  .col6{
+    border: 1px solid rgb(14, 14, 14);
+    width: 299px;
+    height: 350px;
+    float: left;
+  }
+  .col7{
+    border: 1px solid rgb(14, 14, 14);
+    width: 299px;
+    height: 350px;
+    float: left;
+  }
+  .col8{
+    border: 1px solid rgb(14, 14, 14);
+    width: 300px;
+    height: 350px;
+    float: left;
+  }
+  .col9{
+    border: 1px solid rgb(14, 14, 14);
+    width: 300px;
+    height: 350px;
+    float: left;
+  }
+  .col10{
+    border: 1px solid rgb(14, 14, 14);
+    width: 300px;
+    height: 350px;
+    float: left;
+  }
+  .row3{
+    margin:auto;
+    /* border: 1px solid red; */
+    height: 351px;
+    width: 1500px;
+    margin-top: 30px;
+
+  }
+  .col11{
+    border: 1px solid rgb(14, 14, 14);
+    width: 299px;
+    height: 350px;
+    float: left;
+  }
+  .col12{
+    border: 1px solid rgb(14, 14, 14);
+    width: 299px;
+    height: 350px;
+    float: left;
+  }
+  .col13{
+    border: 1px solid rgb(14, 14, 14);
+    width: 300px;
+    height: 350px;
+    float: left;
+  }
+  .col14{
+    border: 1px solid rgb(14, 14, 14);
+    width: 300px;
+    height: 350px;
+    float: left;
+  }
+  .col15{
+    border: 1px solid rgb(14, 14, 14);
+    width: 300px;
+    height: 350px;
+    float: left;
+  }
+  /* footer */
+  .section_bg{
+background-color:#131d2a;
+/* background-color: black; */
+color: white;
+/* height: 300px; */
+  }
+>>>>>>> c2323abf8314bbfd29acafe4ccf924d13f871585

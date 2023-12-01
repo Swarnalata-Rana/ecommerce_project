@@ -3,7 +3,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Navbar = () => {
   return (
-    <div>
+    <div className=''>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">eCommerceApp</a>

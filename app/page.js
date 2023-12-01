@@ -3,11 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import Navbar from './Navbar'
-import Footer from './Footer';
-import Header from './Header';
-import Slider from './Slider';
-import Place from './Place';
-import Registerform from './Registerform';
+import Footer from './Footer'
+import Header from './Header'
+import Slider from './Slider'
+import Place from './Place'
+import Registerform from './Registerform'
+import Product from './Product'
 
 const Page = () => {
   return (
@@ -15,10 +16,11 @@ const Page = () => {
         <Navbar/>
         {/* <Header/> */}
         <Slider/>
+        <Product/>
         <Place/>
         <Footer/>
         {/* <Registerform/> */}
-        <h2>hello world</h2>
+        {/* <Product/> */}
     </>
   )
 }

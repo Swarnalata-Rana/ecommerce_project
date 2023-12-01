@@ -5,20 +5,20 @@ const Slider = () => {
     <div>
       <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img className="d-block w-100" src="https://img.freepik.com/premium-photo/portrait-two-blondes-middle-street-shopping-one-them-points-discount-stores_496169-2383.jpg" alt="First slide" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="https://img.freepik.com/darmowe-zdjecie/dwie-piekne-kobiety-robi-zakupy-w-miescie_1303-16432.jpg?w=826&t=st=1700587558~exp=1700588158~hmac=4357ce619269c7888833509406e7d785c122409534ad7eeb41e23a9c501e3af4" alt="Second slide" />
-          </div>
-          <div className="carousel-item">
-            <img className="d-block w-100" src="https://plus.unsplash.com/premium_photo-1683121271931-669e09a55414?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdvbWFuJTIwc2hvcHBpbmd8ZW58MHx8MHx8fDA%3D" alt="Third slide" />
-          </div>
+            <div className="carousel-item active">
+                <img className="d-block w-100" src="https://pixosoft.com/images/sliders/pixosoft-slider-3.jpg" alt="First slide" />
+            </div>
+            <div className="carousel-item">
+                <img className="d-block w-100" src="https://ithinkbigger.com/wp-content/uploads/2022/03/eCommerce-Website-Components-photo.jpg" alt="Second slide" />
+            </div>
+            <div className="carousel-item">
+                <img className="d-block w-100" src="https://4.imimg.com/data4/TX/JE/GLADMIN-30141012/wp-content-uploads-2016-05-indiabbazaar-e-commerce.jpg" alt="Third slide" />
+            </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>

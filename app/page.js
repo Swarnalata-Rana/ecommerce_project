@@ -18,6 +18,7 @@ const Page = () => {
         <Place/>
         <Footer/>
         {/* <Registerform/> */}
+        <h2>hello world</h2>
     </>
   )
 }

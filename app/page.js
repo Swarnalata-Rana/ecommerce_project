@@ -18,6 +18,8 @@ const page = () => {
         {/* <Header/> */}
         <Slider/>
         <Product/>
+        {/* <Product/>
+        <Product/> */}
         <Place/>
         <Footer/>
         {/* <Registerform/> */}

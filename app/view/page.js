@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 
-const FakeStoreProducts = () => {
+const View = () => {
   const [products, setProducts] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
 
@@ -19,8 +19,7 @@ const FakeStoreProducts = () => {
         }
 
         const data = await response.json();
-        // Limit to only 5 products
-        setProducts(data.slice(0, 5));
+        setProducts(data);
       } catch (error) {
         console.error('Error fetching data:', error.message);
       }
@@ -33,12 +32,31 @@ const FakeStoreProducts = () => {
     setSelectedCategory(category);
   };
 
+  const handleViewAllClick = async () => {
+    setSelectedCategory('');
+
+    try {
+      const response = await fetch('https://fakestoreapi.com/products');
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      setProducts(data);
+    } catch (error) {
+      console.error('Error fetching data:', error.message);
+    }
+  };
+
   return (
+    <>
     <div className="product-container">
       <div className="category-buttons">
-        <button onClick={() => handleCategoryClick("men's clothing")}>
+        {/* <button onClick={handleViewAllClick}>View All</button> */}
+        {/* <button onClick={() => handleCategoryClick("men's clothing")}>
           Men's Clothing
-        </button>
+        </button> */}
         {/* Add buttons for other categories as needed */}
       </div>
       <div className="product-list">
@@ -57,7 +75,7 @@ const FakeStoreProducts = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
-
-export default FakeStoreProducts;
+export default View;

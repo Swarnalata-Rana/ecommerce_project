@@ -5,14 +5,12 @@
   background-color: #0C73EB;
   color: white;
 }
-.home{
+.header{
   align-items:center;
-  height: 70px;
-  color: rgb(82, 130, 202);
+  height: 110px;
+  color: rgb(200, 32, 32);
   align-items: center;
-  color: white;
-  background-color: rgb(18, 17, 17);
-  /* justify-content: center; */
+  background-color: black;
 }
 .search_bar{
   height: 30px;
@@ -28,9 +26,9 @@
 }
 .ul_tag_header{
   list-style-type:none;
-  color: white;
+  color: black;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 50px;
   font-size: 20px;
   margin-left: 800px;
@@ -249,56 +247,3 @@ background-color:#131d2a;
 color: white;
 /* height: 300px; */
   }
-
-  /* copy */
-
-  .product-container {
-    max-width: 1900px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .link{
-    margin-left:1500px;
-  
-  }
-  .product-title {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .product-item {
-    width: calc(20% - 20px); /* Adjust the width based on your layout preferences */
-    margin: 0 0 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  .product-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  .product-title {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  
-  .product-authors {
-    font-size: 16px;
-    color: #888;
-  }
-  .view{
-    margin-left:1300px;
-    font-size: 20px;
-  }
-

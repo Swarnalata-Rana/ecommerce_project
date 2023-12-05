@@ -11,14 +11,20 @@ const Slider = () => {
         </ol>
         <div className="carousel-inner">
             <div className="carousel-item active">
-                <img className="d-block w-100" src="https://pixosoft.com/images/sliders/pixosoft-slider-3.jpg" alt="First slide" />
+                <img className="d-block w-100"  src="https://pixosoft.com/images/sliders/pixosoft-slider-3.jpg" alt="First slide" />
             </div>
             <div className="carousel-item">
-                <img className="d-block w-100" src="https://ithinkbigger.com/wp-content/uploads/2022/03/eCommerce-Website-Components-photo.jpg" alt="Second slide" />
+                <img className="d-block w-100" src="https://m.media-amazon.com/images/I/71j8damPo5L._SX3000_.jpg" alt="Second slide" />
             </div>
             <div className="carousel-item">
-                <img className="d-block w-100" src="https://4.imimg.com/data4/TX/JE/GLADMIN-30141012/wp-content-uploads-2016-05-indiabbazaar-e-commerce.jpg" alt="Third slide" />
+                <img className="d-block w-100" src="https://m.media-amazon.com/images/I/717RUPA1bDL._SX3000_.jpg" alt="Third slide" />
             </div>
+            <div className="carousel-item">
+                <img className="d-block w-100" src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg" alt="Third slide" />
+            </div>
+            {/* <div className="carousel-item">
+                <img className="d-block w-100" src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg" alt="Third slide" />
+            </div> */}
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <div>
-      <nav className='header'>hello headerhjhikhjkhnjkhwen
+      <nav className='header'>
         {/* <input className='search_bar' type="text" placeholder='Search here'/> */}
         <ul className='ul_tag_header'>
           {/* <li>

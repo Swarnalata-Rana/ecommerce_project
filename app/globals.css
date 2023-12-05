@@ -26,16 +26,15 @@
   margin-left: 80px;
 
 }
-.ul_tag_header{
+/* .ul_tag_header{
   list-style-type:none;
   color: white;
   display: flex;
-  /* justify-content: center; */
   gap: 50px;
   font-size: 20px;
   margin-left: 800px;
   text-decoration: none;
-}
+} */
 .text-decoration{
   text-decoration: none;
 

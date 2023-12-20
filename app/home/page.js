@@ -11,8 +11,8 @@ const Home = () => {
                 <div class="container-fluid">
                     <a class="navbar-brand" href="women">Women</a>
                     <a class="navbar-brand" href="men">Men</a>
-                    <a class="navbar-brand" href="jewellery">Jewellery</a>
-                    <a class="navbar-brand" href="shoes">Shoes</a>
+                    <a class="navbar-brand" href="jewelleryall">Jewellery</a>
+                    {/* <a class="navbar-brand" href="shoes">Shoes</a> */}
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">  
                         </ul>

@@ -1,18 +1,18 @@
 "use client"
 import { useState } from 'react';
 
-const Registerform = () => {
-  const [formData, setFormData] = useState({
+    const Registerform = () => {
+    const [formData, setFormData] = useState({
     username: '',
     email: '',
     password: '',
     confirmPassword: '',
-  });
+    });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
 
   const handleSubmit = (e) => {
     e.preventDefault();

@@ -2,11 +2,12 @@
 import React, { useEffect, useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/css/bootstrap.css';
-import Home from '../home/page';
 
-const Women = () => {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
+import Home from '../home/page';
+const  JewelleryAll= () => {
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
     const apiUrl = 'https://fakestoreapi.com/products';
 
     const fetchData = async () => {
@@ -16,27 +17,29 @@ const Women = () => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
+
         const data = await response.json();
-        // Filter products to show only women's category
-        const womenProducts = data.filter((product) => product.category.toLowerCase().includes('women'));
-        setProducts(womenProducts);
+        // Filter products to show only jewelry category
+        const jewelryProducts = data.filter((product) => product.category.toLowerCase().includes('jewel'));
+        setProducts(jewelryProducts);
       } catch (error) {
         console.error('Error fetching data:', error.message);
       }
     };
+
     fetchData();
   }, []);
 
   return (
     <div><Home/>
     <div className="product-container">
-        <div>
-            <h1 className='cataegory'>Women's Products</h1>
-            {/* Example of category button */}
-            <button onClick={() => setProducts([])}>Reset</button>
-            {/* Add more category buttons as needed */}
-        </div>
-        <div className="product-list">
+      <div>
+        <h1 className='cataegory'>Jewelry </h1>
+        {/* Example of category button */}
+        <button onClick={() => setProducts([])}>Reset</button>
+        {/* Add more category buttons as needed */}
+      </div>
+      <div className="product-list">
         {products.map((product) => (
           <div key={product.id} className="product-item">
             {product.image && (
@@ -56,4 +59,4 @@ const Women = () => {
   );
 };
 
-export default Women;
+export default JewelleryAll;

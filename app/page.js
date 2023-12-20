@@ -8,17 +8,17 @@ import Header from './Header'
 import Slider from './Slider'
 import Place from './Place'
 import Registerform from './Registerform'
-import Product from './Product'
+import Eloctronics from "./Eloctronics";
+import Cloths from "./Cloths";
 
 const Page = () => {
   return (
     <>
         <Navbar/>
-        {/* <Header/> */}
+         {/* <Header/>  */}
         <Slider/>
-        <Product/>
-        <Product/>
-        <Product/>
+        <Cloths/>
+        <Eloctronics/>
         <Place/>
         <Footer/>
         {/* <Registerform/> */}

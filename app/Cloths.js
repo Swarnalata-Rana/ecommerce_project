@@ -1,43 +1,27 @@
 
-// import React from 'react'
-
-// const Product = () => {
-//   return (
-//     <div className='main_product'>
-    
-//       <div className='row1'>
-//         <div className='col1'></div>
-//         <div className='col2'></div>
-//         <div className='col3'></div>
-//         <div className='col4'></div>
-//         <div className='col5'></div>
-//       </div>
-    
-//       <div className='row2'>
-//         <div className='col6'></div>
-//         <div className='col7'></div>
-//         <div className='col8'></div>
-//         <div className='col9'></div>
-//         <div className='col10'></div>
-//       </div>
-      
-//       <div className='row3'>
-//         <div className='col11'></div>
-//         <div className='col12'></div>
-//         <div className='col13'></div>
-//         <div className='col14'></div>
-//         <div className='col15'></div>
-//       </div>
-//     </div>
-//   )
-// }
-// export default Product
 
 // "use client";
 // import React, { useEffect, useState } from 'react';
 
+// const ProductDetails = ({ product, onClose }) => (
+//   <div className="product-details">
+//     <button onClick={onClose}>Close</button>
+//     {product.image && (
+//       <img
+//         src={product.image}
+//         alt={product.title}
+//         className="product-image"
+//       />
+//     )}
+//     <h2 className="product-title">{product.title}</h2>
+//     <p className="product-category">Category: {product.category}</p>
+//     {/* Add other details as needed */}
+//   </div>
+// );
+
 // const Product = () => {
 //   const [products, setProducts] = useState([]);
+//   const [selectedProduct, setSelectedProduct] = useState(null);
 
 //   useEffect(() => {
 //     const apiUrl = 'https://fakestoreapi.com/products';
@@ -61,15 +45,23 @@
 //     fetchData();
 //   }, []);
 
+//   const handleProductClick = (product) => {
+//     setSelectedProduct(product);
+//   };
+
+//   const handleCloseDetails = () => {
+//     setSelectedProduct(null);
+//   };
+
 //   return (
 //     <div className="product-container">
 //       <div>
 //         <h1 className='cataegory'>Product Category</h1>
-//         <a className='view' href='view'>View All</a>
+//         <a className='view' href='viewall'>View All</a>
 //       </div>
 //       <div className="product-list">
 //         {products.map((product) => (
-//           <div key={product.id} className="product-item">
+//           <div key={product.id} className="product-item" onClick={() => handleProductClick(product)}>
 //             {product.image && (
 //               <img
 //                 src={product.image}
@@ -78,15 +70,16 @@
 //               />
 //             )}
 //             <h2 className="product-title">{product.title}</h2>
-//             <p className="product-category">Category: {product.category}</p>
-//             {/* <p className="product-description">
-//               {product.description
-//                 ? `${product.description.substring(0, 150)}...`
-//                 : 'No description available'}
-//             </p> */}
+//             <p className="product-category">Category: {product.category}
+//             {/* <a href='one_view'>view</a> */}
+//             </p>
+//             {/* <a href='one_view'>view</a> */}
 //           </div>
 //         ))}
 //       </div>
+//       {selectedProduct && (
+//         <ProductDetails product={selectedProduct} onClose={handleCloseDetails} />
+//       )}
 //     </div>
 //   );
 // };
@@ -95,15 +88,16 @@
 
 "use client";
 import React, { useEffect, useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ProductDetails = ({ product, onClose }) => (
   <div className="product-details">
-    <button onClick={onClose}>Close</button>
+    <button className="btn btn-secondary" onClick={onClose}>Close</button>
     {product.image && (
       <img
         src={product.image}
         alt={product.title}
-        className="product-image"
+        className="product-image img-fluid"
       />
     )}
     <h2 className="product-title">{product.title}</h2>
@@ -112,7 +106,7 @@ const ProductDetails = ({ product, onClose }) => (
   </div>
 );
 
-const Product = () => {
+const Cloths = () => {
   const [products, setProducts] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -129,7 +123,7 @@ const Product = () => {
 
         const data = await response.json();
         // Limit to only 5 products
-        setProducts(data.slice(0, 5));
+        setProducts(data.slice(0, 4));
       } catch (error) {
         console.error('Error fetching data:', error.message);
       }
@@ -147,26 +141,26 @@ const Product = () => {
   };
 
   return (
-    <div className="product-container">
-      <div>
-        <h1 className='cataegory'>Product Category</h1>
-        <a className='view' href='viewall'>View All</a>
+    <div>
+    <div className="container product-container">
+      <div className="row">
+        <div className="col-12">
+          <h1 className='category'>Cloths Category</h1>
+          <a className='btn btn-primary' href='clothsall'>View All</a>
+        </div>
       </div>
-      <div className="product-list">
+      <div className="row product-list">
         {products.map((product) => (
-          <div key={product.id} className="product-item" onClick={() => handleProductClick(product)}>
+          <div key={product.id} className="col-md-3 product-item" onClick={() => handleProductClick(product)}>
             {product.image && (
               <img
                 src={product.image}
                 alt={product.title}
-                className="product-image"
+                className="product-image img-fluid"
               />
             )}
             <h2 className="product-title">{product.title}</h2>
-            <p className="product-category">Category: {product.category}
-            {/* <a href='one_view'>view</a> */}
-            </p>
-            {/* <a href='one_view'>view</a> */}
+            <p className="product-category">Category: {product.category}</p>
           </div>
         ))}
       </div>
@@ -174,7 +168,8 @@ const Product = () => {
         <ProductDetails product={selectedProduct} onClose={handleCloseDetails} />
       )}
     </div>
+    </div>
   );
 };
+export default Cloths;
 
-export default Product;

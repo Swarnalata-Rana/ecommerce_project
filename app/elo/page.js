@@ -2,10 +2,11 @@
 import React, { useEffect, useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/css/bootstrap.css';
-import Home from '../home/page';
+import Navbar from '../Navbar';
 
-const Women = () => {
-  const [products, setProducts] = useState([]);
+const Electronics_view_all = () => {
+  const [electronicsProducts, setElectronicsProducts] = useState([]);
+
   useEffect(() => {
     const apiUrl = 'https://fakestoreapi.com/products';
 
@@ -16,28 +17,28 @@ const Women = () => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
+
         const data = await response.json();
-        // Filter products to show only women's category
-        const womenProducts = data.filter((product) => product.category.toLowerCase().includes('women'));
-        setProducts(womenProducts);
+        // Filter products to show only electronics category
+        const electronicsProducts = data.filter((product) => product.category.toLowerCase().includes('electronics'));
+        setElectronicsProducts(electronicsProducts);
       } catch (error) {
         console.error('Error fetching data:', error.message);
       }
     };
+
     fetchData();
   }, []);
 
   return (
-    <div><Home/>
+    <div><Navbar/>
     <div className="product-container">
-        <div>
-            <h1 className='cataegory'>Women's Products</h1>
-            {/* Example of category button */}
-            <button onClick={() => setProducts([])}>Reset</button>
-            {/* Add more category buttons as needed */}
-        </div>
-        <div className="product-list">
-        {products.map((product) => (
+      <div>
+        <h1 className='category'>All Electronics</h1>
+        <button onClick={() => setElectronicsProducts([])}>Reset</button>
+      </div>
+      <div className="product-list">
+        {electronicsProducts.map((product) => (
           <div key={product.id} className="product-item">
             {product.image && (
               <img
@@ -56,4 +57,4 @@ const Women = () => {
   );
 };
 
-export default Women;
+export default Electronics_view_all;

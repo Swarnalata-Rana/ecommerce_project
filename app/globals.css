@@ -1,9 +1,12 @@
 *{
   margin: 0px;
 }
-.navbar_bg{
-  background-color: #0C73EB;
+/* .navbar_bg{
+  background-color: rgb(32, 85, 209);
   color: white;
+} */
+.bg-color-navbar{
+  background-color: blue;
 }
 .home{
   align-items:center;
@@ -24,7 +27,6 @@
   align-items: center;
   margin-top: 30px;
   margin-left: 80px;
-
 }
 /* .ul_tag_header{
   list-style-type:none;
@@ -37,35 +39,8 @@
 } */
 .text-decoration{
   text-decoration: none;
-
 }
 
-gradient-custom-3 {
-  /* fallback for old browsers */
-  background: #84fab0;
-  
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
-  
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
-  }
-  .gradient-custom-4 {
-  /* fallback for old browsers */
-  background: #84fab0;
-  
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
-  
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
-  }
-  .login_1 {
-    text-align: center;
-    margin-top: 100px;
-    /* font-size: 30px; */
-    /* background-color: aquamarine; */
-  }
   
   .login_2 {
     max-width: 300px;

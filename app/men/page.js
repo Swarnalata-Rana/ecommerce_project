@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import Home from '../home/page';
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -35,7 +34,7 @@ const fetchData = async () => {
   }, []);
 
   return (
-    <div><Home/>
+    <div>
     <div className="product-container">
       <div>
         <h1 className='category'>Men's Products</h1>

@@ -30,13 +30,7 @@ const Place = () => {
             </div>
           </section>
         </div>
-        <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
-          © 2020 Copyright:
-          <a className="text-body" href="https://mdbootstrap.com/" target="_blank" rel="noopener noreferrer">
-            MDBootstrap.com
-          </a>
-        </div>
-        {/* Copyright */}
+        <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}></div>
       </footer>
     </div>
   );

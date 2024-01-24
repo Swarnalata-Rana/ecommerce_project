@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/css/bootstrap.css';
-import Home from '../home/page';
 
 const Women = () => {
   const [products, setProducts] = useState([]);
@@ -28,7 +27,7 @@ const Women = () => {
   }, []);
 
   return (
-    <div><Home/>
+    <div>
     <div className="product-container">
         <div>
             <h1 className='cataegory'>Women's Products</h1>

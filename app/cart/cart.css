@@ -1,0 +1,38 @@
+.header{
+    border: 1px solid #3F0DA9;
+    background-color: #3F0DA9;
+    height: 143px;
+    margin: auto;
+    width: 1280px;
+    margin-top: 20px;
+    border-radius: 12px 0px 0px 12px;
+    color: white;
+}
+.img-div{
+    margin: auto;
+    width: 1180px;
+
+}
+.img{
+    margin-top: 50px;
+}
+.proceed-to-buy{
+    margin-top: 100px;  
+    width: 379px;
+    margin: auto;
+    background-color: #3722D3;
+    font-size: 31px;
+    border-radius: 4px;
+    padding: 12px;
+    text-decoration: none;
+    margin-left: 1040px;
+    margin-top: 100px;
+    height: 67px;
+}
+.buy{
+    color: white;
+    text-decoration: none;
+}
+.gap-div{
+    margin-top: 200px;
+}

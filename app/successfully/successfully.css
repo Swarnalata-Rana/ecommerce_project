@@ -1,0 +1,42 @@
+.main-div{
+    margin-top: 150px;    
+}
+.check-round{
+    background-color: #8BDA6F;
+    border-radius: 25px;
+    height: 50px;
+    color: white;
+    width: 50px;
+    padding: 10px;
+    margin-left: 700px;
+}
+.oder-placed{
+    font-size: 40px;
+    color: #000000;
+    margin-left: 500px;
+
+}
+.gmail-p{
+    font-size: 30px;
+    color: #000000;
+    margin-left: 500px;  
+}
+.continue{
+    margin-top: 100px;
+}
+.ountinue-sopping{
+    margin-top: 100px;  
+    width: 400px;
+    margin: auto;
+    color: white;
+    background-color: #3722D3;
+    font-size: 31px;
+    border-radius: 3px;
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 550px;
+
+}
+.gap-div-lower{
+    margin-top: 200px;
+}

@@ -7,6 +7,7 @@
     margin-top: 20px;
     border-radius: 12px 0px 0px 12px;
     color: white;
+    padding: 40px;
 }
 .img-div{
     margin: auto;
@@ -25,7 +26,7 @@
     border-radius: 4px;
     padding: 12px;
     text-decoration: none;
-    margin-left: 1040px;
+    margin-left: 970px;
     margin-top: 100px;
     height: 67px;
 }

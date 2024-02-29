@@ -1,4 +1,4 @@
-*{
+ *{
   margin: 0px;
 }
 .bg-color-navbar{
@@ -13,42 +13,6 @@
   height: 230px;
   margin-top: 50px;
 }
-/* cloths catagory */
-#product-list-row{
-  /* border: 1px solid red; */
-  margin: auto;
-  width: 1200px;
-  
-}
-
-/* .product-title {
-  font-size: 24px;
-  margin-bottom: 20px;
-}  */
-/* viewall vitare work karuchhi */
-.product-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.product-item {
-  width: calc(20% - 20px); /* Adjust the width based on your layout preferences */
-  margin: 0 0 20px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  /* border-radius: 10px; */
-  box-sizing: border-box;
-  margin-top: 30px;
-}
-.product-image {
-  max-width: 50%;
-  height: auto;
-  border-radius: 10px;
-}
-.product-title {
-  font-size: 18px;
-  margin: 10px 0;
-}
 
 .carousel-inner{
   height: 450px;
@@ -56,48 +20,125 @@
 .btn-primary{
   margin-left:1200px;
   margin-top: -60px;
-
 }
-
 #navgurukul{
-  /* margin-left: 545.5pxpx; */
   margin-top: 38px;
-
 }
 .e-commerce{
   margin-top: 8px;
   margin-left: 545.5pxpx;
-
 }
 .e-logo{
   margin-top: 20px;
   align-items: center;
   margin-left: 545.5pxpx;
-
 }
-.row product-list{
-  height:100px;
+#carouselExampleIndicators{
+  margin: auto;
+  width: 1300px;
+  border-radius: 60px;
 }
-
+@media (min-width: 1400px) {
+  .container {
+      max-width: 1280px;
+  }
+}
+.container, .container-fluid {
+  padding: 0px;
+}
+*{
+  margin: 0px;
+}
+.product-container {
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  margin-right: 20px;
+}
+.link{
+  margin-left:1550px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.product-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.product-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.product-item {
+  width: 350px;
+  height: 403px;
+  flex-shrink: 0;
+}
+.product-image {
+  max-width: 100%;
+  height: 350px;
+  border-radius: 5px;
+}
+.product-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.product-authors {
+  font-size: 16px;
+  color: #888;
+}
+#navbar{
+  margin-right: 15px;
+}
+#space{
+  margin-left: 12px;
+  font-size: large;
+}
 .footer{
-  height: 230px;
+  height: 200px;
   background: #3722D3;
-  /* margin-left: 20px; */
-  color: white;
 }
-
 .footer1{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
 }
+.text_foo{
+  color: var(--Logo---Light, #FBE9A9);
+  font-family: Inika;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 33.6px */
+}
+.margin-left{
+  margin-left: 10px;
+}
+.price{
+  color: #000;
+  font-family: Inika;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px;
+  margin-left: 50px;
+  margin-top:5px;
+}
+.rating{
+  display: inline-flex;
+  align-items: flex-start;
+  margin-right: 50px;
+  gap: 1px; 
+}
+#title{
+  border: solid 2px black;
+}
 
-/* allcloths */
-
-/* slider */
-#carouselExampleIndicators{
-  margin: auto;
-  width: 1300px;
-  border-radius: 60px;
+#row{
+  margin-top: 48px;
 }

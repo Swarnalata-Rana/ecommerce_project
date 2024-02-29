@@ -14,7 +14,7 @@ const Successfully = () => {
         <div className='oder-placed'>Order Successfully Placed</div>
         <p className='gmail-p'>Track Details on your email-id<br></br>swarnalatarana21@navgurukul.org</p>
         <div className='continue'>
-            <a className='ountinue-sopping'>Continue Shopping <ArrowForwardIcon/></a>
+            <a className='ountinue-sopping' href='./'>Continue Shopping <ArrowForwardIcon/></a>
             <div className='gap-div-lower'></div>
         </div>
     </div>

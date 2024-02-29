@@ -1,0 +1,113 @@
+ .header{
+    border: 1px solid #3F0DA9;
+    background-color: #3F0DA9;
+    height: 143px;
+    margin: auto;
+    width: 1280px;
+    margin-top: 20px;
+    border-radius: 12px 0px 0px 12px;
+    color: white;
+    }
+    .catarory{
+      margin-top: 40px;
+      margin-left: 120px;
+      size: 36px;
+    }
+    .paragrap{
+      margin-top: -8px;
+      margin-left: 120px;
+      size: 30px;
+    
+      line-height: 24px;
+    }
+    .not-selected{
+      margin-left: 450px;
+      margin-top: 50px;
+    }
+    .sort_name{
+      border: 1px solid #FBE9A9;
+      height: 54px;
+      margin-left: 1000px;
+      padding: 15px;
+      border-radius: 5px;
+      width: 350px;
+      margin-top: -40px;
+    }
+    #option{
+      margin-left: 40px;
+      border: none;
+      outline:0px;
+    }
+    .filter_box{
+      /* border: 1px solid red; */
+      float: left;
+      height: 824px;
+      width: 220px  ;
+      margin-left: 80px;
+    }
+    .filter-box2{
+      float: left;
+      font-size: 20px;
+    }
+    .clear{
+      margin-left: 150px;
+      color: #3722D3;
+      font-size: 20px;
+    }
+    .select-brand{
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .check-box{
+      Line-height:30px;
+      font-size: 18px;
+    }
+    .more{
+      color:#3722D3; 
+      margin-top: 15px;
+    }
+    .col-md-9{
+      margin-top: 40px;
+      margin-left: auto;
+    }
+    .category_product{
+      font-size: 30px;
+      height: 143px;
+      margin: auto;
+      border: 1px solid red;
+      width: 1700px;
+      border-radius: 12px 00px 0px 12px;
+      background-color: #3F0DA9;
+      color: white;
+      margin-top: 50px;
+      
+    }
+    .catarory_p1{
+      margin-top: 20px;
+      font-size: 40px;
+      margin-left:100px ;
+    }
+    .catarory_p{
+      margin-left: 100px;
+      font-size: 20px;
+      margin-top: -15px;
+    }
+    .filter-not{
+      margin-left: 500px;
+      margin-top: 70px;
+      font-size: 20px;
+    }
+    .rating{
+      float: left;
+      font-size: 18px;
+
+    }
+    .price{
+      font-size: 18px;
+    }
+    .image-title{
+      width: 250px;
+      height: 200px;
+      border-radius:8px;
+
+    }

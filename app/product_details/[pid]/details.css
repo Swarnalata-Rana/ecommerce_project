@@ -1,0 +1,34 @@
+.container {
+    margin-top: 100px;
+    border: 1px solid rgb(37, 35, 35);
+    text-align: center;
+}
+#one-image {
+    border: 1px solid red;
+    float: left;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+}
+#discription {
+    border: 1px solid red;
+    margin-left: 250px;
+    font-size: 15px;
+    height: 400px;
+}
+.add-to-cart {
+    height: 67px;
+    width: 329px;
+    color: white;
+    background-color: #3722D3;
+    font-size: 31px;
+    border-radius: 4px;
+    margin-top: 100px;
+    padding: 15px;
+    text-decoration: none; 
+    /* margin-top: 100px; */
+
+}
+.gap-tag {
+    margin-top: 200px;
+}

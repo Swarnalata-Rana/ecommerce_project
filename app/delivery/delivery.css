@@ -1,3 +1,14 @@
+.header{
+    border: 1px solid #3F0DA9;
+    background-color: #3F0DA9;
+    height: 143px;
+    margin: auto;
+    width: 1280px;
+    margin-top: 20px;
+    border-radius: 12px 0px 0px 12px;
+    color: white;
+    padding: 40px;
+}
 .form-div{
     /* border: 1px solid red; */
     margin-left: 200px;
